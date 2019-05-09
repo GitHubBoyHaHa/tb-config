@@ -12,11 +12,11 @@ eureka:
     prefer-ip-address: true #显示客户端真实ip
 ---
 server: 
-  port: 8001
+  port: 8003
 spring:
   profiles: test #测试环境
   application:
-    name: TB-USER-PROVIDER
+    name: TB-USER-TEST
 eureka:
   client:
     service-url:
